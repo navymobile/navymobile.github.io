@@ -5,11 +5,10 @@ navymobileが提供するアプリの案内と法務情報を掲載していま�
 ## アプリ
 
 - [SimpleMemo](./apps/simplememo/)
-- [dot](./dot/)
-- [レシピアプリ](./recipe/)
+- [dot](./apps/dot/)
+- [レシピアプリ](./apps/recipe/)
 
 <style>
   .page-header { display: none !important; }
   .site-footer { display: none !important; }
 </style>
-
