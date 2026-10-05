@@ -1,5 +1,6 @@
 # 公開しない仕様書・開発用ドキュメント
 /docs/
+AGENTS.md
 
 # macOS・エディターのローカル設定
 .DS_Store
