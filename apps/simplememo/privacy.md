@@ -69,10 +69,9 @@ AppleおよびGoogleによる情報の取扱いについては、各社のプラ
 
 本ポリシーに関するご質問や、アプリに関する不具合報告・ご要望は、以下のフォームよりお問い合わせください。
 
-* [お問い合わせフォーム](https://forms.gle/XBbsp9hyYYtD9tPT9)
+- [問題を報告](https://forms.gle/XBbsp9hyYYtD9tPT9)
 
 <style>
   .page-header { display: none !important; }
   .site-footer { display: none !important; }
 </style>
-

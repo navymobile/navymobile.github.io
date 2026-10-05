@@ -1,8 +1,4 @@
-# navymobile Apps
-
-navymobileが提供するアプリの案内と法務情報を掲載しています。
-
-## アプリ
+# Apps
 
 - [SimpleMemo](./apps/simplememo/)
 - [dot](./apps/dot/)
