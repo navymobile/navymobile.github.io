@@ -1,0 +1,13 @@
+# 公開しない仕様書・開発用ドキュメント
+/docs/
+
+# macOS・エディターのローカル設定
+.DS_Store
+*.code-workspace
+
+# サイト生成時の出力・キャッシュ
+/_site/
+/.jekyll-cache/
+/.jekyll-metadata
+/.sass-cache/
+/vendor/bundle/

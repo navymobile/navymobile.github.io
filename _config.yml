@@ -2,3 +2,6 @@ theme: jekyll-theme-cayman
 title: navymobile Apps
 description: navymobileが提供するアプリの案内と法務情報
 
+# 仕様書・開発用ドキュメントは公開サイトに含めない
+exclude:
+  - docs
