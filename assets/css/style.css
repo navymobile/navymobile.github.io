@@ -1,0 +1,188 @@
+:root {
+  color-scheme: light;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+  color: #1f2937;
+  background: #fff;
+  font-size: 17px;
+  line-height: 1.85;
+  -webkit-text-size-adjust: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* 長い説明文を読みやすい幅に収め、左右の余白を揃える。 */
+.content {
+  width: calc(100% - 48px);
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 64px 0 80px;
+  overflow-wrap: anywhere;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #111827;
+  line-height: 1.5;
+}
+
+h1 {
+  margin: 0 0 1.25em;
+  font-size: 2rem;
+}
+
+h2 {
+  margin: 2em 0 0.75em;
+  font-size: 1.4rem;
+}
+
+h3 {
+  margin: 1.75em 0 0.65em;
+  font-size: 1.15rem;
+}
+
+h4,
+h5,
+h6 {
+  margin: 1.5em 0 0.5em;
+  font-size: 1rem;
+}
+
+p,
+ul,
+ol,
+dl,
+blockquote,
+pre,
+table {
+  margin: 0 0 1.25em;
+}
+
+ul,
+ol {
+  padding-left: 1.6em;
+}
+
+li + li {
+  margin-top: 0.4em;
+}
+
+li > ul,
+li > ol {
+  margin: 0.4em 0 0;
+}
+
+a {
+  color: #164e87;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+a:hover {
+  color: #0d355e;
+}
+
+a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
+:target {
+  scroll-margin-top: 24px;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+blockquote {
+  padding-left: 1em;
+  border-left: 3px solid #d1d5db;
+  color: #4b5563;
+}
+
+blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+code,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+  font-size: 0.9em;
+}
+
+code {
+  padding: 0.15em 0.3em;
+  border-radius: 3px;
+  background: #f3f4f6;
+}
+
+pre {
+  padding: 1em;
+  overflow-x: auto;
+  border-radius: 4px;
+  background: #f3f4f6;
+}
+
+pre code {
+  padding: 0;
+  font-size: inherit;
+}
+
+table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.5em 0.75em;
+  border: 1px solid #d1d5db;
+  text-align: left;
+}
+
+hr {
+  margin: 2em 0;
+  border: 0;
+  border-top: 1px solid #d1d5db;
+}
+
+@media (max-width: 600px) {
+  .content {
+    width: calc(100% - 32px);
+    padding: 32px 0 48px;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+  }
+}
+
+@media print {
+  :root {
+    font-size: 11pt;
+    color: #000;
+  }
+
+  .content {
+    width: 100%;
+    max-width: none;
+    padding: 0;
+  }
+}

@@ -1,6 +1,20 @@
-theme: jekyll-theme-minimal
+# GitHub Pagesの既定テーマも読み込まない。
+theme: null
 title: navymobile Apps
 description: navymobileが提供するアプリの案内と法務情報
+lang: ja
+
+plugins:
+    - jekyll-optional-front-matter
+    - jekyll-titles-from-headings
+    - jekyll-seo-tag
+
+defaults:
+    - scope:
+          path: ""
+          type: pages
+      values:
+          layout: default
 
 # 仕様書・開発用ドキュメントは公開サイトに含めない
 exclude:
