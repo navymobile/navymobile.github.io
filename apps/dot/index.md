@@ -4,8 +4,3 @@
 
 - [プライバシーポリシー](./privacy)
 - [利用規約](./terms)
-
-<style>
-  .page-header { display: none !important; }
-  .site-footer { display: none !important; }
-</style>

@@ -218,9 +218,3 @@ Apple Watchとの連携に関する問題では、ペアリングされたiPhone
 SimpleMemoのバージョンは、iPhone・iPadでは設定画面の下部、Macでは設定の「情報」で確認できます。
 
 [プライバシーポリシー](./privacy) · [SimpleMemoの案内に戻る](./)
-
-<!-- 既存の案内・プライバシーページと同じく、共通の装飾を隠して本文を中心に表示する。 -->
-<style>
-  .page-header { display: none !important; }
-  .site-footer { display: none !important; }
-</style>

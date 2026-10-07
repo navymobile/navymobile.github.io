@@ -84,7 +84,3 @@
 本ポリシーに関するご質問や、アカウントに関する各種ご請求、その他の不具合報告・ご要望は、以下のフォームよりお問い合わせください。
 
 * [お問い合わせフォーム](https://forms.gle/9MQihxdTNYJLGsNh9)
-<style>
-  .page-header { display: none !important; }
-  .site-footer { display: none !important; }
-</style>
