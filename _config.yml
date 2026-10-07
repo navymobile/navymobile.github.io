@@ -1,4 +1,4 @@
-theme: jekyll/minima
+theme: "jekyll/minima"
 title: navymobile Apps
 description: navymobileが提供するアプリの案内と法務情報
 
